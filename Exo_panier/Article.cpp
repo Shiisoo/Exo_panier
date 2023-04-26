@@ -41,6 +41,7 @@ int Article::entree_utilisateur_int(string texte){
     int a;
     cout << texte << endl;
     scanf_s("%d", &a);
+    //scanf("%d", &a);
     return a;
 }
 

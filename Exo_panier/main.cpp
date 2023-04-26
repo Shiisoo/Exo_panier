@@ -18,6 +18,7 @@ nombre d'articles
 
 void affichePrix(float prix){
     printf_s("%.2fEUR\n", prix);
+    // printf("%.2fEUR\n", prix);
 }
 
 void afficheResult(string texte, float prix){
