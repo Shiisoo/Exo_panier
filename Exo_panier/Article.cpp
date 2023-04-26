@@ -37,8 +37,8 @@ string Article::entree_utilisateur_str(string texte){
 }
 
 
-int Article::entree_utilisateur_int(string texte){
-    int a;
+float Article::entree_utilisateur_int(string texte){
+    float a;
     cout << texte << endl;
     scanf_s("%d", &a);
     //scanf("%d", &a);

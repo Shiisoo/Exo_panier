@@ -16,7 +16,7 @@ private:
 
     // Méthodes
     string entree_utilisateur_str(string texte);
-    int entree_utilisateur_int(string texte);
+    float entree_utilisateur_int(string texte);
     
 public:
     // Constructeur
