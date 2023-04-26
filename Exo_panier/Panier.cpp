@@ -17,11 +17,11 @@ void Panier::ajoutArticle(Article* art){
 void Panier::supprArticle(Article* art){                                            //On passe en paramétre l' objet art de la classe Artcle 
 	for (int i = 0; i < this->tabArticle.size(); i++)                               //boucle  à l'index 0 jusqu'à la taille du tableau article 
 	{
-		if (this->tabArticle[i].get_nom() == art->get_nom()                         //Si le nom d'un article dans le tableau est == 
+		if (this->tabArticle[i].get_nom() == art->get_nom()                         //Si le nom d'un article dans le tableau est == au nom de l'article
 			&& this->tabArticle[i].get_description() == art->get_description()
 			&& this->tabArticle[i].get_prix() == art->get_prix())
 		{
-			this->tabArticle.erase(this->tabArticle.begin() + i);
+			this->tabArticle.erase(this->tabArticle.begin() + i);                  
 
 			//delete art;
 		}
